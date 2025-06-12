@@ -1,0 +1,267 @@
+<style>
+  *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	background: #04184f;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+}
+.container h1{
+	position: absolute;
+	color: white;
+	margin-bottom: 530px;
+	margin-left: 500px;
+	font-size: 28px; 
+	word-spacing: 5px;
+}
+.divl{
+	border: 1px solid;
+	width: 75%;
+	height: 85%;
+	display: flex;
+    margin: auto; 
+	font-size-adjust: 10px; 
+	position: absolute;
+    border: none;
+}
+.form-container{ 
+ 	background-image: linear-gradient(to bottom left,blue,green);
+ 	width: 410px;
+ 	height: 500px;
+ 	margin-top: 15px ;
+ 	padding: 2px 20px; 
+ 	align-items: center;
+ 	margin-left: 230px; 
+} 
+.form-container p{
+	color: white;
+	margin-top: 17px;
+	font-size: 33px;
+	text-align: center;
+}
+.input-box{
+    width: 370px;
+    position: relative;
+    margin-bottom: 20px;
+   }
+.input-box input{
+    width: 95%;
+    border: none;
+    border-bottom: 2px solid;
+    background: transparent;
+    outline: none;
+    gap: 10px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    color: white;
+   }
+.input-box input:hover{
+    color: #0ef;
+   }
+.input-box label{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s ease all;
+    transform: translateY(-130%);
+    margin-left: 26px;
+    
+   }
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    margin-top: -30px;
+    font-size: 15px;
+    color: #0ef;
+    margin-left: -10px;
+   }
+ 
+.social-media{
+	 display: flex;
+	 gap: 15px;
+}
+.btn-social{
+	 border: none;
+	 border-radius: 20px;
+	 display: flex;
+	 align-items: center;
+	 cursor: pointer;
+	 transition: background 0.3s ease;
+}
+.btn-social.facebook{
+	width: 53%;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+	justify-content: center;
+	background-color: #3b5998;
+	transform: translateX(-4%);
+	margin-top: 20px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;	 
+}
+.btn-social.google{
+	width: 53%;
+	height: 40px;
+	background-color: #db4a39;
+	color: white;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 180px;
+	transform: translateY(-100%);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.btn-social:hover{
+	opacity: 0.9;
+}
+.btn-social img{
+	width: 18px;
+	height: 18px;
+	object-fit: contain;
+	transform: translateX(-200%);
+}
+.form-link{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	transform: translateY(-70%);
+}
+ 
+      </style>
+         <div class="container">
+		 <h1>Register Login Widget</h1>
+		 <div class="divl">
+		 <div class="form-container">
+		 <p>Login</p>
+		 <div class="input-box">
+			<input type="username" required/>
+			<label>Username</label>
+			</div>
+		 <div class="input-box">
+		 <input type="email" required/>
+		 <label>Email</label>
+		 </div>
+		 <div class="input-box">
+		 <input type="password" required/>
+		 <label>Password</label>
+		 </div>
+				<button style="background:#000080;padding:10px;
+				width:360px; height:45px;cursor:pointer;color:white;
+				border:none; border-radius:22px;margin-bottom:20px;
+				 margin-top:40px; font-size:16px;margin-left: 6px;">LOGIN NOW</button>
+		 <div class="social-login"> 
+			<button class="btn-social facebook">
+				<img src="facebook(1).png" alt="Facebook Icon">Facebook</button>
+				<button class="btn-social google">
+				 <img src="google.png" alt="Google Icon">Google</button> 
+		 </div> 
+		 <div class="form-link">
+		 <span>Don't have an account?</span>
+		 </div>
+		 </div>
+		 </div>
+	<style>
+.main{ 
+    background-image:linear-gradient(to bottom left,blue,green);
+    width: 410px;
+ 	height: 500px;
+ 	transform: translateY(12px);
+ 	margin: auto;
+ 	padding: 2px 20px; 
+ 	margin-right: 210px; 
+}	
+.main h3{
+	color: white;
+	text-align: center;
+	margin-top: 17px;
+	font-size: 28px;
+}
+.input-box{
+    width: 370px;
+    position: relative;
+    margin-bottom: 20px;
+	transform: translateY(80%);
+   }
+.input-box input{
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid;
+    background: transparent;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    color: white;
+   }
+.input-box input:hover{
+    color: #0ef;
+   }
+.input-box label{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s ease all;
+    transform: translateY(-130%);
+    margin-left: 150px;
+    font-weight: bold;
+   }
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    margin-top: -30px;
+    font-size: 15px;
+    color: #0ef;
+    margin-left: -10px;
+   }
+.form{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-top: 25px;
+}
+</style>
+		  <div class="main">
+		 <h3>Register</h3>
+		 <div class="input-box">
+			<input type="username" required/>
+			<label>Username</label>
+			</div>
+		 <div class="input-box">
+		 <input type="email" required/>
+		 <label>Email</label>
+		 </div>
+		 <div class="input-box">
+		 <input type="password" required/>
+		 <label>Password</label>
+		 </div>
+		  <div class="input-box">
+		 <input type="confirm password" required/>
+		 <label>Confirm Password</label>
+		 </div>
+				<button style="background:#000080;padding:10px;width:360px; 
+				height:45px;cursor:pointer;color:white;border:none; 
+				border-radius:22px;margin-bottom:20px;margin-top:40px; 
+				font-size:16px; margin-left:5px;">REGISTER</button>
+		 
+		 <div class="form">
+		 <span>By clicking register.I agree to your terms</span>
+		 </div>
+		 </div>
+		 </div>
